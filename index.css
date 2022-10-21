@@ -1,0 +1,23 @@
+.flex-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container-box {
+    background-color: rgb(8, 8, 8);
+    height: 700px;
+    text-align: center;
+    width: 700px;
+  }
+
+element.style {
+    display: flex;
+    justify-content: center;
+    /* width: 700px; */
+}
+
+element.style {
+    border: 1px solid;
+    width: 700px;
+}

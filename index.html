@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 1</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap-icons.css">
+  <link rel=" stylesheet" type="text/css" href="index.css" media="screen">
+  
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+          
+          <div class="col-6">
+            <div class="card">
+              <div class="card-body">
+  
+                <h2 id="titulo">Formulário de contato:</h2>  
+
+    <div>
+    <fieldset>
+        <form>
+            <div class="campo">
+                <label for="Nome"><strong>Nome:</strong></label>
+                <input class="form-control" type="text" name="nome" id="nome" placeholder="Digite o seu nome completo...">
+            </div>
+    
+            <div class="input-padrao">
+                <label for="Telefone"><strong>Telefone:</strong></label>
+                <input class="form-control" type="tel" id="Telefone" class="input-padrao" required placeholder="(xx) xxxxx-xxxx">
+            </div>
+    
+            <div class="form-group">
+                <label for="email"><strong>E-mail:</strong></label>
+                <input class="form-control" type="email" name="email" id="email" placeholder="Digite o seu e-mail...">
+              </div>
+              
+              <label for="Gênero"><strong>Gênero:</strong></label>
+        <div class="form-control">
+            <select id="Gênero" required>
+              <option selected disabled value="">Selecione</option>
+              <option>Masculino</option>
+              <option>Feminino</option>
+              <option>Outros</option>
+            </select>
+        </div>
+        
+        <label for="date"><strong>Data de Nacimento:</strong></label>
+            <input class="form-control"type="date" id="date" name="date" value="">        
+            
+            <label for="number"><strong>Idade:</strong></label>
+            <input class="form-control" type="number" id="number" name="number" value=""> 
+            <br>
+
+            <label for="radio"><strong>Algum Parentesco:</strong></label>
+            <div class="form-control">
+                <input type="radio" id="tipo1" name="tipo" value="1"> Sim
+                <input type="radio" id="tipo2" name="tipo" value="2"> Não
+            </div>
+            <br>
+
+            <label for="segmento"><strong>Origem do Contato:</strong></label>
+            <div class="form-control">
+                <select class="selectpicker">
+                    <option>Escola</option>
+                    <option>Trabalho</option>
+                    <option>Amigos</option>
+                  </select>
+            </div>
+            <br>
+            
+            <label for="file"><strong>Adicione sua foto aqui:</strong></label>
+                    <div class="form-control">
+                        <input class="form-control" type="file" id="file" name="file" value="">
+                    </div>
+                    <br>
+            
+
+            <label for="text"><strong>Redes Sociais:</strong></label>
+             <input class="form-control" type="text" id="nome" name="Nome" value="">
+            <br> 
+            <br>     
+            
+            <div class="form-group text-center">
+                <button type="submit" class="btn btn-primary">ENVIAR</button>
+              </div>
+
+    </form>
+    <br>
+    </fieldset>
+
+<div>
+    <h2 id="titulo"><center>Agenda de contatos:</center></h2>
+    <br>
+</div>
+
+<table class="table">
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col">Nome</th>
+        <th scope="col">E-mail</th>
+        <th scope="col">Telefone</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><a href="pagina1.html"> Patinho Magnata </a>
+            <td> (46)9988-7766 </td>
+            <td> Patuncio@outlook.com </td>
+          </tr>
+          <tr>
+            <td><a href="pagina2.html"> Lana Banana</a>
+            <td> (46)9588-7366 </td>
+            <td> LanaBanana@hotmail.com </td>
+          </tr>
+          <tr>
+            <td><a href="pagina3.html">Jflap o Hamster</a>
+            <td> (45)4748-0380 </td>
+            <td> Jflapohamster@gmail.com </td>
+          </tr>
+          <tr>
+            <td><a href="pagina4.html">Ramires o fofo</a>
+            <td> (45)4790-0760 </td>
+            <td> ramiresfofinho@gmail.com </td>
+          </tr>
+    </tbody>
+  </table>
+</div>  
+
+<script src="js/jquery-3.4.1.slim.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
